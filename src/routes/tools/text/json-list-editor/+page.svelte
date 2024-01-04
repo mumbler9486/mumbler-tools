@@ -16,7 +16,12 @@
 </script>
 
 <div class="flex w-full">
-	<Textarea class="w-1/2" label="Enter a comma separated list of items:" bind:value={list} />
+	<Textarea
+		class="w-1/2"
+		rows="18"
+		label="Enter a comma separated list of items:"
+		bind:value={list}
+	/>
 	<div class="divider divider-horizontal"></div>
-	<Textarea class="w-1/2" label="JSON List" bind:value={jsonList} />
+	<Textarea class="w-1/2" rows="18" label="JSON List" bind:value={jsonList} />
 </div>
