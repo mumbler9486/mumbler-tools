@@ -2,7 +2,7 @@
 </script>
 
 <svelte:head>
-	<title>Advent of Svelte 2023</title>
+	<title>Mumbler Tools</title>
 </svelte:head>
 
 <main>
