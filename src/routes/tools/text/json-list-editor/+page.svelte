@@ -13,8 +13,6 @@
 	$: convertToText(jsonList);
 
 	const convertToJson = (rawList: string) => {
-		console.log('text');
-
 		// List to JSON
 		if (!isTextFocused) {
 			return;

@@ -8,6 +8,10 @@
 			icon: Document,
 			items: [
 				{
+					label: 'CSV to JSON Editor',
+					link: '/tools/text/csv-to-json',
+				},
+				{
 					label: 'JSON List Editor',
 					link: '/tools/text/json-list-editor',
 				},
