@@ -62,11 +62,11 @@
 <div class="flex w-full">
 	<Textarea
 		class="w-1/2"
-		rows={18}
+		rows={30}
 		label="Enter rows comma separated. First row is the header row."
 		bind:value={list}
 		{error}
 	/>
 	<div class="divider divider-horizontal"></div>
-	<Textarea class="w-1/2" rows={18} label="JSON" readonly value={JSON.stringify(jsonList)} />
+	<Textarea class="w-1/2" rows={30} label="JSON" readonly value={JSON.stringify(jsonList)} />
 </div>

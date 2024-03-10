@@ -11,6 +11,13 @@
 	<div class="label">
 		<span class="label-text">{label}</span>
 	</div>
-	<textarea {rows} class="textarea textarea-bordered" {placeholder} {readonly} bind:value on:input />
+	<textarea
+		{rows}
+		class="textarea textarea-bordered leading-tight"
+		{placeholder}
+		{readonly}
+		bind:value
+		on:input
+	/>
 	<div class="label text-xs text-error">{error}</div>
 </label>

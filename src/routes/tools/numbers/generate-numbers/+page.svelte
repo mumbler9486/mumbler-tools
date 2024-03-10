@@ -100,5 +100,5 @@
 		<Input label="Step" maxlength={25} error={stepNumberError} bind:value={stepRaw} />
 	</div>
 	<div class="divider divider-horizontal"></div>
-	<Textarea class="w-1/2" rows={18} label="Output" readonly {error} bind:value={numListDisplay} />
+	<Textarea class="w-1/2" rows={30} label="Output" readonly {error} bind:value={numListDisplay} />
 </div>

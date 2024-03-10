@@ -58,7 +58,7 @@
 <div class="flex w-full">
 	<Textarea
 		class="w-1/2"
-		rows={18}
+		rows={30}
 		label="Enter a newline separated list of items:"
 		bind:value={list}
 		on:input={textInputPressed}
@@ -66,7 +66,7 @@
 	<div class="divider divider-horizontal"></div>
 	<Textarea
 		class="w-1/2"
-		rows={18}
+		rows={30}
 		label="JSON List"
 		bind:value={jsonList}
 		on:input={jsonInputPressed}
