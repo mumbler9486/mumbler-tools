@@ -17,6 +17,16 @@
 				},
 			],
 		},
+		{
+			label: 'Number Tools',
+			icon: Document,
+			items: [
+				{
+					label: 'Generate Numbers',
+					link: '/tools/numbers/generate-numbers',
+				},
+			],
+		},
 	];
 
 	interface NavigationGroup {
