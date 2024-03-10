@@ -73,7 +73,7 @@
 
 		const numList = [];
 		let iterationCount = 0;
-		for (let i = min; i < max; i += step) {
+		for (let i = min; i <= max; i += step) {
 			iterationCount++;
 			numList.push(i);
 
